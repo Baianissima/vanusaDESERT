@@ -1,0 +1,9 @@
+<!-- textes pour la page déserts du monde  -->
+
+Que dit le désert ? Que signifie-t-il ? Que suggère-t-il ?
+" Le désert est un être poétique "
+Voici, pour commencer, une vérité ontologique à soutenir car elle n'induit point en erreur. On ne saurait discourir sur le désert sans penser préalablement à la notion de " vide ". En effet, le premier sentiment qui s'empare de nous lorsqu'on évoque le désert, c'est le sentiment de vide.
+
+On imagine l'espace. On imagine son immensité. On imagine sa vacuité et sa dureté. Dans l'inconscient collectif universel, le désert est notamment lié au sentiment de perte et d'errance. Il est sans conteste la métaphore de la solitude et de l'isolement. Toutefois, le désert, bien qu'il soit visiblement vide, est un espace peuplé. Il est peuplé de secrets et de métaphores qui définissent plus l'être énigmatique qu'il est que le simple espace exposé à l'oeil. Phénoménologiquement parlant, pour comprendre le désert, il faut vivre l'expérience du désert.
+
+Il faut entrer en télescopage avec lui afin d'en déduire le sens et la signification. En principe, nulle présence (humaine ou autre) ne peut prétendre signifier intrinsèquement. Toute signification, toute connaissance est une expérience. Ainsi, la signification est-elle plutôt extrinsèque. Elle émane d'une expérience externe exercée librement par l'autre sur le même. Dans cette perspective, le désert, objet de réflexion, est à considérer comme étant un livre, un texte à draguer, à séduire inlassablement afin de gagner sa confiance, son intimité et sa foi. Il faut y voir un " visage ", " le commencement même de la philosophie " (Emmanuel Lévinas, Entre nous, Grasset et Fasquelle, 1991.) En fait, le désert s'expose au regard comme s'il s'agissait d'un visage, l'épreuve de l'infini.
