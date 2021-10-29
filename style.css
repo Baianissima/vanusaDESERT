@@ -1,0 +1,30 @@
+/* style css nadia karouchi pour la page deserts  */
+
+
+body {
+    background-color: #fff;
+}
+/* .row {
+    flex-wrap: wrap;
+    flex-direction: row;
+} */
+.row {
+    display: flex;
+    flex-direction: row;
+    /* passage à la ligne des éléments pour que la largeur des col soit respectée */
+    flex-wrap: wrap;
+    row-gap: 10px;
+}
+
+.col-1 {
+    width: 25%;
+}
+.col-2 {
+    width: 50%;
+}
+.col-3 {
+    width: 75%;
+}
+.col-4 {
+    width: 100%;
+}
