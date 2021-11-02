@@ -1,0 +1,175 @@
+
+/* STYLE MAQUETTE DESERTS DU MONDE */
+
+/* déclaration des couleurs en :root */
+:root {
+    --gris-clair : #ddd;
+    --blanc : #fff;
+    --noir : #000;
+    --ocre: #a65122;
+}
+
+body {
+    background-color: var(--gris-clair);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+.conteneur {
+    width: 60%;
+    margin: auto;
+    background-color: var(--blanc);
+}
+
+/* Style pour le header */
+
+header {
+    height: 140px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid var(--gris-clair);
+}
+
+header div {
+    display: flex;
+    align-items: center;
+}
+
+h1 {
+    font-family: 'Philosopher', sans-serif;
+    color: var(--ocre);
+    padding-left: 15px;
+    letter-spacing: -1px;
+    font-size: 1.5em;
+}
+
+nav a {
+    padding: 30px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: var(--noir);
+}
+
+nav a:hover {
+    font-weight: bolder;
+}
+
+/* partie principale */
+
+h2 {
+    text-indent: 10%;
+    font-size: 1.3em;
+}
+
+section div {
+    padding: 20px;
+}
+
+img {
+    /* l'image fera au max 100% de son parent  */
+    max-width: 100%;
+}
+
+h3 {
+    padding: 20px;
+    border-bottom: 1px solid var(--gris-clair);
+}
+
+h3:nth-of-type(2) {
+    margin-top: 150px;
+}
+
+/* footer */
+footer {
+    height: 80px;
+    border-top: 1px solid var(--gris-clair);
+    text-align: center;
+}
+
+/*  déclaration des colonnes */
+.row {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.col-1 {
+    width: 6.333333%;
+    margin: 1%;
+}
+
+.col-2 {
+    width: 14.6666%;
+    margin: 1%;
+}
+
+.col-3 {
+    width: 23%;
+    margin: 1%;
+}
+
+.col-4 {
+    width: 31.333333%;
+    margin: 1%;
+}
+
+.col-5 {
+    width: 39.6666666%;
+    margin: 1%;
+}
+
+.col-6 {
+    width: 48%;
+    margin: 1%;
+}
+
+.col-7 {
+    width: 56.333333%; 
+    margin: 1%;
+}
+
+.col-8 {
+    width: 64.666666%;
+    margin: 1%; 
+}
+
+.col-9 {
+    width: 73%;
+    margin: 1%;  
+}
+
+.col-10 {
+    width: 81.333333%;
+    margin: 1%;  
+}
+
+.col-11 {
+    width: 89.666666%;
+    margin: 1%;   
+}
+
+.col-12 {
+    width: 98%;
+    margin: 1%;   
+}
+
+/* styles pour media queries  */
+
+@media screen and (max-width: 801px) {
+    .conteneur {
+        width: 100%;
+    }
+    .col-xs-12 {
+        width: 100%;
+    }
+}
+@media screen and (min-width: 801px) and (max-width: 1200px)  { 
+    .conteneur {
+        width: 100%;
+    }
+
+    .col-md-12 {
+        width: 100%;
+    }
+}
