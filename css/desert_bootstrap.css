@@ -68,6 +68,7 @@ h3 {
     border-bottom: 1px solid var(--gris-clair);
 }
 
+/* Ici on dit que le second h3 aura 150px de mt */
 h3:nth-of-type(2) {
     margin-top: 150px;
 }
