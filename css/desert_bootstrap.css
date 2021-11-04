@@ -16,7 +16,7 @@ body {
     margin: 0;
 }
 
-.conteneur {
+.container {
     width: 60%;
     margin: auto;
     background-color: var(--blanc);
@@ -26,27 +26,18 @@ body {
 
 header {
     height: 140px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
     border-bottom: 1px solid var(--gris-clair);
-}
-
-header div {
-    display: flex;
-    align-items: center;
 }
 
 h1 {
     font-family: 'Philosopher', sans-serif;
     color: var(--ocre);
-    padding-left: 15px;
+    /* padding-left: 15px; */
     letter-spacing: -1px;
     font-size: 1.5em;
 }
 
 nav a {
-    padding: 30px;
     text-transform: uppercase;
     text-decoration: none;
     color: var(--noir);
@@ -60,7 +51,7 @@ nav a:hover {
 
 h2 {
     text-indent: 10%;
-    font-size: 1.3em;
+    font-size: 1.5em;
 }
 
 section div {
@@ -88,8 +79,22 @@ footer {
     text-align: center;
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*  déclaration des colonnes */
-.row {
+/* .row {
     display: flex;
     flex-flow: row wrap;
 }
@@ -152,7 +157,7 @@ footer {
 .col-12 {
     width: 98%;
     margin: 1%;   
-}
+} */
 
 /* styles pour media queries  */
 

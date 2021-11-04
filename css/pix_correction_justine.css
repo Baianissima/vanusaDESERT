@@ -1,0 +1,126 @@
+/* les couleurs en variable */
+:root {
+    --texte-footer:#343434;
+    --orange:#FF4F13;
+    --gris:#E6E6E6;
+    --blanc:#fff;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.row {
+    width: 65%;
+    margin: auto;
+}
+
+h1, h2, blockquote, figcaption {
+    font-family: 'Aclonica', sans-serif;
+}
+
+/* Header */
+
+header {
+    background:url(../img/header.png) repeat-x;
+    height: 140px;
+}
+
+header h1 a {
+    color: var(--blanc);
+    text-decoration: none;
+    font-size: 0.5em;
+}
+
+header h1 a span {
+    color: var(--orange);
+}
+
+header h1 a:hover {
+    color: var(--blanc);
+}
+
+header nav a {
+    margin-left: 15px;
+    padding: 10px 15px;
+    border-radius: 20px;
+    color: var(--blanc);
+    transition: 1s ease;
+    text-decoration: none;
+}
+
+header nav a:hover {
+    background-color: var(--orange);
+    color: var(--blanc);
+}
+
+/* blockquote */
+
+blockquote {
+    height: 150px;
+    background: url(../img/quote-open.png) no-repeat, url(../img/quote-close.png) no-repeat bottom right;
+    padding-top: 25px;
+    color: var(--orange);
+}
+
+blockquote p {
+    font-size: 1.5em;
+}
+
+/* Partie principale */
+
+.bg-gris {
+    background-color: var(--gris);
+}
+
+h2 {
+    text-transform: uppercase;
+    margin-bottom: 0;
+    font-size: 1.1em;
+    line-height: 1.5em;
+}
+
+section p {
+    line-height: 20px;
+}
+
+section figure img {
+    border: 2px solid var(--gris);
+    padding: 5px;
+}
+
+figcaption {
+    text-transform: uppercase;
+}
+
+figcaption span {
+    text-transform: capitalize;
+    font-style: italic;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: smaller;
+}
+
+/* footer */
+
+footer {
+    background-color: var(--texte-footer);
+    color: var(--blanc);
+    height: 210px;
+    text-align: center;
+}
+
+.infos address {
+    line-height: 17px;
+    font-style: italic;
+}
+
+.reseaux i {
+    font-size: 2em;
+    padding: 10px;
+    color: var(--gris);
+    transition: 1s ease;
+}
+
+.reseaux i:hover {
+    color: var(--orange);
+}
